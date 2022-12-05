@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+body {
+    background-color: rgb(107, 39, 107);
+    font-family: sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    overflow: hidden;
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: rgb(186, 125, 186);
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-style: none;
+    margin-bottom: 11px;
+}
+
+button:focus{
+    background-color: rgb(111, 66, 111);
+    outline: none;
+}
+
+form{
+    color: black;
+    font-size:17px;
+    text-align: center;
+    padding-bottom: 37px;
+}
+
+h1, h3 {
+    padding-top: 11px;
+    text-align: center;
+    font-size: 37px;
+    color:black;
+}
+
+h2 {
+    color: black;
+    padding-top: 17px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 17px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 17px;
+}
+
+li {
+    color: black;
+    padding-left:7px;
+    padding-right: 7px;
+    font-size: 17px;
+}
+
+.leaderboard ol {
+    color: black;
+    padding-left:45%;
+}
+
+.scoreboard {
+    margin-top: 17%;
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.leaderboard {
+    margin-top: 17%;
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 17%;
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.question-container {
+    margin-top: 17%;
+    background-color: white;
+    border-radius: 7px;
+    width: 500px;
+    overflow: hidden;
+}
+
+#quiz ul {
+    padding-left: 31%;
+    padding-bottom:7px;
+}
+
+#countdown {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top:1%;
+    padding-bottom: 1%;
+    border-width: 1px;
+    border-color: lightgrey;
+}
